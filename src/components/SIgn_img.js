@@ -8,8 +8,10 @@ const SIgn_img = () => {
                 <div className="sign_img mt-5">
                 </div>
             </div>
-    <img src={img2} style={{ maxWidth: 300, maxHeight: 300 }} alt="" />
-    <img src={img1} style={{ maxWidth: 300, maxHeight: 300 }} alt="" />
+    <div>
+    <img src={img2} style={{ maxWidth: 200, maxHeight: 200 }} alt="" />
+    <img src={img1} style={{ maxWidth: 200, maxHeight: 200 }} alt="" />
+    </div>
         </>
     )
 }
