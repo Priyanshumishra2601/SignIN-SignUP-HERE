@@ -1,5 +1,4 @@
 import React from 'react'
-import img1 from '../components/i1.png'
 import img2 from '../components/i3.png'
 const SIgn_img = () => {
     return (
@@ -8,7 +7,7 @@ const SIgn_img = () => {
                 <div className="sign_img mt-5">
                 </div>
             </div>
-    <img src={img1} style={{ maxWidth: 200, maxHeight: 200 }} alt="" />
+    <img src={img2} style={{ maxWidth: 250, maxHeight: 250 }} alt="" />
 
         </>
     )
